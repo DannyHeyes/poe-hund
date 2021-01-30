@@ -1,0 +1,35 @@
+body {
+  background-color: #FAF5F0;
+  overflow: hidden;
+  font-family: 'Ogg';
+  font-weight: 300;
+  color: #1A0D31;
+}
+
+.main {
+  height: 99vh;
+  width: 99vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.logo {
+  width: 30%;
+  padding-bottom: 10px;
+}
+
+h1, h2 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+
+#email {
+  text-decoration: none;
+  color: #1A0D31;
+  padding-top: 10px;
+  font-size: 18px;
+}
