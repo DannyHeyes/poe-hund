@@ -3,9 +3,6 @@ body {
   overflow: hidden;
   font-family: 'Krub', sans-serif;
   color: #1A0D31;
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 
 .main {
@@ -15,7 +12,21 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  animation: fadeInAnimation ease 2.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
+@keyframes fadeInAnimation {
+from {
+    opacity: 0;
+    transform: translateY(50px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+ }
+}
+
 
 .logo {
   width: 30%;
@@ -62,15 +73,4 @@ h2 {
   #instagram-logo {
     padding-top: 18px;
   }
-}
-
-@keyframes fadeInAnimation {
-0% {
-    opacity: 0;
-    transform: translateY(30px);
-}
-100% {
-    opacity: 1;
-    transform: translateY(0px);
- }
 }
