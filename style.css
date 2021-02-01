@@ -1,10 +1,10 @@
 body {
   background-color: #FAF5F0;
   overflow: hidden;
-  font-family: 'Ogg';
-  font-weight: 300;
+  font-family: 'Krub', sans-serif;
   color: #1A0D31;
 }
+
 .main {
   height: 99vh;
   width: 99vw;
@@ -12,16 +12,18 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: left;
 }
+
 .logo {
   width: 30%;
   padding-bottom: 10px;
 }
+
 h1, h2 {
   font-size: 18px;
   font-weight: lighter;
 }
+
 #email {
   text-decoration: none;
   color: #1A0D31;
@@ -29,9 +31,17 @@ h1, h2 {
   font-size: 18px;
 }
 
+#instagram-logo {
+  padding-top: 30px;
+}
+
 @media screen and (max-width: 768px) {
   .logo {
     width: 50%;
+  }
+
+  #instagram-logo {
+    padding-top: 25px;
   }
 }
 
@@ -40,4 +50,17 @@ h1, h2 {
     font-size: 14px;
   }
 
+  h2 {
+    position: relative;
+    bottom: 10px;
+  }
+
+  #email {
+    position: relative;
+    bottom: 20px;
+  }
+
+  #instagram-logo {
+    padding-top: 18px;
+  }
 }
