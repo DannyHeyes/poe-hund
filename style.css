@@ -41,7 +41,7 @@ h1, h2 {
 }
 h2 {
   position: relative;
-  bottom: 20px;
+  bottom: 40px;
 }
 
 #email {
@@ -49,28 +49,37 @@ h2 {
   color: #1A0D31;
   font-size: 18px;
   position: relative;
-  bottom: 20px;
-
+  bottom: 55px;
 }
 
 #instagram-logo {
-  padding-top: 30px;
+  position: relative;
+  bottom: 15px;
 }
 
 @media screen and (max-width: 768px) {
   .logo {
     width: 50%;
   }
-  #instagram-logo {
-    padding-top: 25px;
-  }
 }
 
 @media screen and (max-width: 426px) {
+
+.logo {
+  padding-bottom: 5px;
+}
+
   h1, h2, span {
     font-size: 14px;
   }
+  h2{
+    padding-top: 10px;
+  }
+  #email {
+    padding-top: 5px;
+  }
   #instagram-logo {
-    padding-top: 18px;
+    position: relative;
+    bottom: 35px;
   }
 }
