@@ -5,7 +5,6 @@ body {
   font-weight: 300;
   color: #1A0D31;
 }
-
 .main {
   height: 99vh;
   width: 99vw;
@@ -15,21 +14,30 @@ body {
   flex-direction: column;
   text-align: left;
 }
-
 .logo {
   width: 30%;
   padding-bottom: 10px;
 }
-
 h1, h2 {
   font-size: 18px;
   font-weight: lighter;
 }
-
-
 #email {
   text-decoration: none;
   color: #1A0D31;
   padding-top: 10px;
   font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  h1, h2, span {
+    font-size: 14px;
+  }
+
 }
